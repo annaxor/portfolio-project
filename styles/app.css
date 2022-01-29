@@ -20,30 +20,6 @@ p {
   line-height: 1.7;
 }
 
-.featured-project {
-  font-size: 40px;
-}
-
-.featured-title {
-  font-weight: 800 !important;
-}
-
-.hero {
-  background-color: var(--secondary-color);
-  text-align: center;
-  padding: 160px 20px;
-}
-
-.hero p h2 {
-  font-size: 20px;
-  margin: 0;
-}
-
-.hero h2 {
-  font-weight: 800;
-  font-size: 70px;
-}
-
 .btn-branding {
   background-color: var(--branding-color);
   color: white;
@@ -74,7 +50,52 @@ p {
 }
 
 .content-container {
+  padding: 120px 20px;
+}
+
+.featured-project {
+  font-size: 40px;
+}
+
+.featured-title {
+  font-weight: 800 !important;
+}
+
+.hero {
+  background-color: var(--secondary-color);
+  text-align: center;
   padding: 160px 20px;
+}
+
+.hero p h2 {
+  font-size: 20px;
+  margin: 0;
+}
+
+.hero h2 {
+  font-weight: 800;
+  font-size: 70px;
+}
+
+.logo {
+  max-height: 30px;
+}
+
+.navbar {
+  padding: 20px 20px;
+}
+
+.nav-item {
+  padding: 0 15px;
+}
+
+.navbar-light .navbar-nav .nav-link:hover {
+  color: var(--branding-color);
+}
+
+.navbar-light .navbar-nav .nav-link.active,
+.navbar-light .navbar-nav .show > .nav-link {
+  font-weight: 800;
 }
 
 .project-description {
